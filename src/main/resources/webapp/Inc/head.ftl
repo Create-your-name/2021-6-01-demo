@@ -16,9 +16,10 @@
             </li>
         </ul>
 
-        <ul class="layui-nav fly-nav-user">
+        <ul class="layui-nav fly-nav-user">我
 
-            <!-- 未登入的状态 -->
+            <!-- 未登入的状态
+
             <li class="layui-nav-item">
                 <a class="iconfont icon-touxiang layui-hide-xs" href="user/login.html"></a>
             </li>

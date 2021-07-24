@@ -67,6 +67,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
+
         <!--mp代码生成器-->
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -88,6 +89,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.2.0</version>
         </dependency>
         <!-- shiro-redis -->
         <!--    <dependency>
@@ -112,7 +118,6 @@
                     <addMavenDescriptor>false</addMavenDescriptor>
                 </archive>
                 <warName>${project.artifactId}</warName>
-idea
             </configuration>
             </plugin>
         </plugins>
